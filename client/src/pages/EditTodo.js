@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { getTodo, updateTodo } from '../api';
-import './styles.css'; // Import the CSS file
+import './styles.css'; 
 
 const EditTodo = () => {
     const { id } = useParams();
