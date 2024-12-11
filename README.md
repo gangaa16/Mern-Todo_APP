@@ -1,5 +1,4 @@
 
-Here’s a more concise README.md with just the necessary commands to run and clone your project:
 
 To-Do App (MERN Stack)
 A simple To-Do application built with the MERN stack (MongoDB, Express.js, React, Node.js).
