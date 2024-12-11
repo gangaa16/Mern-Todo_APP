@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const TodoSchema = new mongoose.Schema({
     title: { type: String, required: true, trim: true },
-    description: { type: String, required: true }, // Make sure this is required if needed
+    description: { type: String, required: true }, 
     status: { 
         type: String, 
         enum: ['pending', 'in-progress', 'completed'], 
