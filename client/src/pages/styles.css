@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eeedf3;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(135deg,#fdfeff,#e5f40d);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.todo-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    margin-bottom: 10px;
+}
+
+.form-input,
+.form-textarea,
+.form-select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 15px; /* Added margin for spacing */
+}
+
+.add-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745; /* Green color for Add button */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-item {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.todo-title {
+    margin: 0 0 10px;
+}
+
+.todo-description {
+    margin: 5px 0;
+}
+
+.todo-status {
+    margin: 5px 0;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+}
+
+.edit-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffc107; /* Yellow color for Edit button */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.edit-button:hover {
+    background-color: #e0a800; /* Darker yellow on hover */
+}
+
+.delete-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #dc3545; /* Red color for Delete button */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
