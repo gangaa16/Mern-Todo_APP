@@ -13,6 +13,7 @@ git clone https://github.com/your-username/Mern-Todo_App.git
 Navigate to the backend directory and install the necessary dependencies:
 
 cd backend
+
 npm install
 
 3. Set up environment variables
